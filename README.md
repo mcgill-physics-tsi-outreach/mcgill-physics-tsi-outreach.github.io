@@ -1,4 +1,4 @@
-#McGill Physics and TSI Outreach Website Repo
+# McGill Physics and TSI Outreach Website Repo
 
 Author: David Gallacher
 Built in Bootstrap 5.2
