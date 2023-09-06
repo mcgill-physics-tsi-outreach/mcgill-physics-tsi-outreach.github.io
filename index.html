@@ -142,11 +142,11 @@
                 <div class="col text-center">
                     <div class="text-center">
                         <h1 class="text-center">Events Calendar</h1>
-                    </div><a href="https://www.google.com/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calendar-date text-dark link-secondary" style="width: 10rem;height: 6rem;color: rgb(0,0,0);" href="https://www.google.com/">
+                    </div><a data-bs-toggle="modal" data-bs-target="#modal-calendar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calendar-date text-dark link-secondary" style="width: 10rem;height: 6rem;color: rgb(0,0,0);" href="https://www.google.com/">
                             <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"></path>
                             <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"></path>
                         </svg></a>
-                    <p>Click here to join our shared Google Calendar</p>
+                    <p>Click here to checkout and join our shared Google Calendar</p>
                 </div>
                 <div class="col">
                     <div></div>
@@ -165,7 +165,7 @@
         <div class="container">
             <div class="row align-items-center flex-row">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="p-5"><img class="rounded-circle img-fluid" src="assets/img/stockteam.jpg"></div>
+                    <div class="p-5"><img class="rounded img-fluid" src="assets/img/outreach_2023.jpg" alt="Outreach Committee During the 2023 Organizer Summit"></div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="p-5">
@@ -384,6 +384,24 @@
             <p class="text-muted mb-0">Copyright © 2023 McGill Physics and TSI Outreach</p>
         </div>
     </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-calendar">
+        <div class="modal-dialog modal-fullscreen-md-down" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Events Calendar</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid text-center">
+                        <div><iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=1&bgcolor=%23ffc4c4&ctz=America%2FToronto&showPrint=0&showTabs=1&showCalendars=0&src=ZDg4YTA5ZjRhMjJjZWUxMjg3MDliYTU3YTQ3NzkwZDk5MmQzMWUzY2NlNmM1ZDg5YjEwMDAwZjE3ZjU2MGViM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border:solid 1px #777" width="450" height="600" frameborder="0" scrolling="no"></iframe></div>
+                    </div>
+                </div>
+                <div class="text-start" style="padding: 0rem 1rem;">
+                    <p>Click the<strong><em> +Google Calendar</em></strong> button in the calendar above to import our calendar to your own Google Calendar!</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/mailto.js"></script>
