@@ -9,7 +9,7 @@
   background-attachment: scroll;
   background-size: cover;
   background-image: url("../../assets/img/header_audience_astromcgill.jpg");
-  height: 600px;
+  height: 500px;
 }
 
 #educators-masthead {
@@ -22,8 +22,24 @@
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url("../../assets/img/lego.jpeg");
-  height: 600px;
+  background-image: url("../../assets/img/events/lego.jpg");
+  height: 500px;
+}
+
+
+
+#gallery-masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-image: url("../../assets/img/events/planetary_systems_board.jpg");
+  height: 400px;
 }
 
 header.masthead {
@@ -37,7 +53,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
   background-image: url("../../assets/img/header_audience_astromcgill.jpg");
-  height: 600px;
+  height: 500px;
 }
 
 #public-masthead {
@@ -51,7 +67,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
   background-image: url("../../assets/img/observatory.jpeg");
-  height: 600px;
+  height: 500px;
 }
 
 @media (min-width: 1200px) {
