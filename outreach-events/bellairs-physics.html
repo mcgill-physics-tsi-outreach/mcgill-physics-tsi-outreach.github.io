@@ -2,117 +2,165 @@
 <html lang="en" data-bs-theme="light">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <title>Bellairs Outreach: Hands-On Physics Day</title>
+  <meta name="description" content="Website of the McGill Physics and Trottier Space Institute Outreach Committee" />
+  <meta property="og:type" content="website" /> 
+
 
   <!-- Site assets (adjust paths if needed) -->
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../assets/css/Catamaran.css" />
+  <link rel="stylesheet" href="../assets/css/Lato.css" />
+  <link rel="stylesheet" href="../assets/css/Navbar-Right-Links-Dark-icons.css" />
   <link rel="stylesheet" href="../assets/css/outreach.css" />
   <link rel="stylesheet" href="../assets/css/events.css" />
+  <link rel="stylesheet" href="../assets/css/gallery.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
   <meta name="description" content="McGill Physics Outreach brought hands-on demos to the Bellairs Research Institute in Barbados for 80+ students aged 10–14." />
   <meta property="og:title" content="Bellairs Outreach: Hands-On Physics Day" />
   <meta property="og:description" content="Hands-on physics activities for 80+ students at Bellairs, Barbados." />
   <style>
-    #masthead {
+    /* -------- Masthead -------- */
+    #quantum-masthead {
       position: relative;
       overflow: hidden;
       padding-top: calc(7rem + 72px);
       padding-bottom: 7rem;
-      background-color: #000; /* solid black background */
-      color: #fff;            /* white text for contrast */
-      text-align: center;     /* center all text horizontally */
+      background-color: #000;
+      background-image: url("../assets/img/events/bellairs/sinkorfloat.jpg");
+      color: #000000;
+      text-align: center;
       display: flex;
       flex-direction: column;
-      justify-content: center; /* vertically center text */
+      justify-content: center;
       align-items: center;
       background-repeat: no-repeat;
       background-position: center center;
-      background-attachment: scroll;
       background-size: cover;
       height: 400px;
     }
 
-    #masthead h1 {
-      font-size: 2rem; /* smaller headline */
+    #quantum-masthead h1 {
+      font-size: 2rem;
       margin-bottom: 0.5rem;
     }
 
-    #masthead p {
-      font-size: 1rem; /* smaller subtitle text */
+    #quantum-masthead p {
+      font-size: 1rem;
       max-width: 600px;
       margin: 0 auto;
       opacity: 0.8;
     }
-  </style>
 
+    /* -------- Blog Content -------- */
+    body {
+      font-family: "Lato", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .blog-content, article {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #222;
+    }
+
+    /* -------- Gallery -------- */
+    .swiper {
+      width: 80%;
+      max-width: 700px;
+      height: 400px;
+      margin: 40px auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background-color: #000;
+    }
+
+    @media (max-width: 768px) {
+      .swiper {
+        height: 250px;
+        max-width: 95%;
+      }
+    }
+
+
+  </style>
 </head>
 <body>
 
-  <!-- Simple top bar (optional—remove if your layout injects its own navbar) -->
-  <nav class="navbar bg-dark navbar-dark">
-    <div class="container">
-      <a class="navbar-brand" href="../index.html">McGill Physics & TSI Outreach</a>
-      <div class="d-flex gap-3">
-        <a class="nav-link text-white-50" href="../gallery.html">Events</a>
-        <a class="btn btn-sm btn-outline-light" href="../index.html">Home</a>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar bg-dark bg-gradient py-3 fixed-top navbar-dark">
+      <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" href="../index.html" title="Return home"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-stars">
+                      <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"></path>
+                  </svg></span><span href="../index.html">McGill Physics and TSI Outreach</span></a>
+          <div class="d-flex gap-3">
+            <a class="nav-link text-white-50" href="../gallery.html">Events</a>
+            <a class="btn btn-sm btn-outline-light" href="../index.html">Home</a>
+          </div>
       </div>
-    </div>
   </nav>
 
-  <!-- Hero -->
-  <header class="py-5 bg-light border-bottom">
-    <div class="container">
-      <h1 class="display-5 fw-bold mb-2">McGill Physics Outreach Brings Hands-On Science to Barbados</h1>
-      <p class="text-muted mb-0">Bellairs Research Institute • Ages 10–14 • One-day outreach program</p>
-    </div>
-  </header>
+
+    <!-- Header -->
+    <header id="quantum-masthead">
+      <div class="masthead-content text-center">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">McGill Physics Outreach Brings Hands-On Science to Barbados</h1>
+          <p>September 30th, 2025</p>
+        </div>
+      </div>
+    </header>
 
   <!-- Article -->
   <main class="container my-5">
-    <!-- Optional cover image -->
-    <!-- <figure class="mb-4">
-      <img src="../assets/img/bellairs/cover.jpg" class="img-fluid rounded" alt="Students doing physics demos at Bellairs" />
-      <figcaption class="mt-2 text-muted small">Students exploring hands-on demos at Bellairs.</figcaption>
-    </figure> -->
-
     <article class="mx-auto" style="max-width: 900px;">
-      <p><strong>Catherine Boisvert</strong> and <strong>Valentina Mazzotti</strong>, Outreach Coordinators with the McGill Physics Outreach Committee, recently represented McGill at the <em>Bellairs Research Institute</em> in Barbados, where they led a full day of hands-on physics activities for more than <strong>80 students aged 10 to 14</strong>. The event was part of the island’s <em>We Gatherin’</em> celebration and brought together students from local middle and high schools for an exciting introduction to the world of physics.</p>
-
-      <p>“It was inspiring to see the students’ curiosity and enthusiasm for physics and to help spark their interest in future STEM careers,” said Mazzotti.</p>
-
-      <h2 class="h4 mt-5">Morning: Curiosity in Motion</h2>
-      <ul>
-        <li><strong>Potato Lamp:</strong> Students learned how two different metals inserted into a potato can create a small voltage to light an LED—an accessible way to demonstrate electrochemistry and energy conversion.</li>
-        <li><strong>Parachute Challenge:</strong> Teams designed and tested mini parachutes, exploring how air resistance and gravity influence motion.</li>
-        <li><strong>Sink or Float:</strong> Through predictions and tests, students discovered how density and buoyancy determine whether objects float—complete with the classic fresh- vs. salt-water egg demo.</li>
-      </ul>
-
-      <h2 class="h4 mt-4">Afternoon: Building and Experimenting</h2>
-      <ul>
-        <li><strong>Build a Simple Electric Motor:</strong> Learners saw how electric current and magnetic fields produce motion—the principle behind everyday motors.</li>
-        <li><strong>Make a Compass:</strong> By magnetizing a needle and floating it on water, students observed alignment with Earth’s magnetic field.</li>
-        <li><strong>Potato Lamp (Series Cells):</strong> Older students connected multiple cells and measured how voltage adds in series, linking science to simple engineering.</li>
-      </ul>
-
-      <!-- Optional inline gallery -->
-      <!--
-      <div class="row g-3 my-4">
-        <div class="col-12 col-md-6"><img src="../assets/img/bellairs/potato-lamp.jpg" class="img-fluid rounded" alt="Potato lamp demo" /></div>
-        <div class="col-12 col-md-6"><img src="../assets/img/bellairs/parachute.jpg" class="img-fluid rounded" alt="Parachute challenge" /></div>
-        <div class="col-12 col-md-6"><img src="../assets/img/bellairs/compass.jpg" class="img-fluid rounded" alt="Student-made compass" /></div>
-        <div class="col-12 col-md-6"><img src="../assets/img/bellairs/motor.jpg" class="img-fluid rounded" alt="Simple electric motor" /></div>
+      <p><strong>Catherine Boisvert</strong> and <strong>Valentina Mazzotti</strong>, Outreach Coordinators with the <strong>McGill Physics Outreach Committee</strong>, spent a day at the <em>Bellairs Research Institute</em> in Barbados leading hands-on physics activities for more than 80 students aged 10 to 14. The event took place as part of the island’s <em>We Gatherin’</em> celebration and brought together local middle and high school students for an introduction to physics through simple, engaging experiments.</p>
+    
+      <img src="../assets/img/events/bellairs/group.jpg" alt="Group photo at Bellairs" class="img-fluid rounded shadow my-3">
+    
+      <p>In the <strong>morning</strong>, the activities were designed for <strong>younger students</strong>, who explored physical concepts such as air resistance, buoyancy, and basic electrochemistry using simple materials. Through the <strong>parachute challenge</strong>, students learned how to design and iteratively improve their own parachutes. They experimented with different canopy sizes, shapes, and materials to see how drag and surface area affect the rate of descent. The exercise encouraged a design–test–revise approach similar to that used in real engineering contexts. Students also learned a bit about the history of parachute design, including early ideas by inventors like Leonardo da Vinci.</p>
+    
+      <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
+        <img src="../assets/img/events/bellairs/parachute1.jpg" alt="Students testing parachutes" class="img-thumbnail" style="width: 45%; min-width: 250px;">
+        <img src="../assets/img/events/bellairs/parachute2.jpg" alt="Parachute design activity" class="img-thumbnail" style="width: 45%; min-width: 250px;">
       </div>
-      -->
-
-      <h2 class="h4 mt-4">Inspiring the Next Generation</h2>
-      <p>Throughout the day, the atmosphere was filled with excitement, curiosity, and collaboration. Students asked thoughtful questions, shared their results, and proudly showed off their creations. The outreach visit at Bellairs reflects McGill Physics’ ongoing commitment to making science accessible and engaging beyond the classroom—and across borders.</p>
-
-      <div class="d-flex gap-2 mt-5">
-        <a href="../gallery.html" class="btn btn-outline-secondary">&larr; Back to Events</a>
-        <a href="../index.html" class="btn btn-primary">Return Home</a>
+    
+      <p>The <strong>potato lamp experiment</strong> introduced students to the concept of an electrochemical cell. By inserting two dissimilar metals — typically zinc and copper — into a potato, students created a simple galvanic cell where a redox reaction generates a small electric current. When connected to a light-emitting diode (LED), the circuit showed how chemical energy stored in the potato could be converted into electrical energy. Students also experimented with connecting multiple cells in series to see how voltage adds up.</p>
+    
+      <p>In the <strong>sink or float activity</strong>, students explored <strong>density</strong> and <strong>buoyancy</strong>. They made predictions about which materials and shapes would float or sink, then tested their hypotheses. Using familiar objects, they observed that an object floats when it displaces a volume of water equal to its weight. They also compared a raw egg in fresh and salt water — discovering that the egg floats in salt water because its density is lower than the denser liquid. The activity helped illustrate Archimedes’ principle in a hands-on way.</p>
+    
+      <img src="../assets/img/events/bellairs/sink_float.jpg" alt="Sink or float activity" class="img-fluid rounded shadow my-4">
+    
+      <p>In the <strong>afternoon</strong>, the focus shifted to <strong>electromagnetism</strong>, with activities aimed at the <strong>older students</strong>. Participants built a <strong>simple electric motor</strong> using a coil of copper wire, a magnet, and a battery. As current flowed through the coil, they observed how the interaction between the magnetic field and moving charges produced a torque, causing the coil to spin. This demonstration illustrated how electrical energy can be converted into mechanical motion and introduced the idea of the Lorentz force.</p>
+    
+      <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
+        <img src="../assets/img/events/bellairs/motor.jpg" alt="Building electric motor" class="img-thumbnail" style="width: 45%; min-width: 250px;">
+        <img src="../assets/img/events/bellairs/compass.jpg" alt="Magnetic compass activity" class="img-thumbnail" style="width: 45%; min-width: 250px;">
       </div>
+    
+      <p>They then revisited the <strong>potato lamp experiment</strong>, connecting several cells in series and measuring the resulting voltage with a multimeter. This demonstrated how electrical potential increases with the number of cells, a core idea in basic circuit design. The final experiment involved building a <strong>magnetic compass</strong>. Students magnetized a sewing needle and let it float on water, observing it align with Earth’s magnetic field — a simple yet effective way to visualize geomagnetism in action.</p>
+    
+      <p>The activities encouraged students to observe, test, and discuss what they saw — connecting simple materials to physical principles. For the McGill team, it was an opportunity to share the process of discovery that lies at the heart of physics and to show how experimentation can reveal the rules that govern the natural world.</p>
+    
+      <p>For both Catherine and Valentina, the outreach visit to Bellairs was a memorable experience. “Seeing the students' excitement and curiosity as they engaged with the experiments was incredibly rewarding,” said Catherine. “It reminded me of the joy of discovery that science can bring, especially when it’s hands-on and interactive.”</p>
     </article>
+    
+    
   </main>
 
   <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
