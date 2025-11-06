@@ -15,7 +15,13 @@
         "role": "Professor- Outreach Committee Member",
         "image": "assets/img/thumbs/Hilke2.jpg",
         "link": "https://www.physics.mcgill.ca/~hilke/"
-      },  
+      }, 
+    {
+      "name": "Andrew Cumming",
+      "role": "Professor- Outreach Committee Member",
+      "image": "assets/img/thumbs/AndrewCumming.jpeg",
+      "link": "https://www.physics.mcgill.ca/~cumming/"
+    }, 
     {
       "name": "Patrick Horlaville",
       "role": "Outreach Coordinator – Space Explorers",
