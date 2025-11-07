@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public Talks Catalogue</title>
+
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../assets/css/Catamaran.css" />
+  <link rel="stylesheet" href="../assets/css/Lato.css" />
+  <link rel="stylesheet" href="../assets/css/outreach.css" />
+
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    #talks-header {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                  url("../assets/img/events/public_talks_header.jpg") center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 6rem 1rem;
+      margin-bottom: 3rem;
+    }
+
+    #talks-header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    .talk-card {
+      border: none;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      background-color: #fff;
+    }
+
+    .talk-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Maintain a perfect 4:5 image ratio */
+    .talk-card-img {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .talk-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .talk-card-body {
+      padding: 1.5rem;
+    }
+
+    .talk-date {
+      font-size: 0.95rem;
+      color: #777;
+    }
+
+    .talk-speakers {
+      font-weight: 600;
+      color: #444;
+    }
+
+    .talk-abstract {
+      color: #333;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 0.98rem;
+    }
+
+    .btn-watch {
+      background-color: #c41e3a;
+      border: none;
+    }
+
+    .btn-watch:hover {
+      background-color: #a01830;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar bg-dark navbar-dark fixed-top py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">McGill Physics & TSI Outreach</a>
+      <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section id="talks-header">
+    <div class="container">
+      <h1>Public Talks Catalogue</h1>
+      <p class="lead mt-3">Explore our past talks and watch the recordings.</p>
+    </div>
+  </section>
+
+  <!-- Talks Container -->
+  <main class="container pb-5">
+    <div id="talks-container" class="row g-4"></div>
+  </main>
+
+  <footer class="text-center py-4 mt-5 text-muted">
+    © 2025 McGill Physics & Trottier Space Institute Outreach
+  </footer>
+
+  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    async function loadTalks() {
+      const response = await fetch("assets/data/public_talks.json");
+      const talks = await response.json();
+      const container = document.getElementById("talks-container");
+
+      talks.forEach(talk => {
+        const card = document.createElement("div");
+        card.className = "col-md-6 col-lg-4";
+
+        card.innerHTML = `
+          <div class="card talk-card h-100">
+            <div class="talk-card-img">
+              <img src="${talk.image}" alt="${talk.title}">
+            </div>
+            <div class="talk-card-body">
+              <h5 class="card-title">${talk.title}</h5>
+              <p class="talk-speakers">${talk.speakers.join(", ")}</p>
+              <p class="talk-date">${talk.date}</p>
+              <p class="talk-abstract">${talk.abstract}</p>
+              <a href="${talk.youtube}" target="_blank" class="btn btn-watch btn-sm text-white">
+                🎥 Watch on YouTube
+              </a>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    loadTalks();
+  </script>
+</body>
+</html>

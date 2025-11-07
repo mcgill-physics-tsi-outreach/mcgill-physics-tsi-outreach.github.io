@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Arctic Climate Change", 
+      "speakers": ["Bruno Tremblay"],
+      "date": "October 28, 2025",
+      "image": "assets/img/public_talks/Arctic_Climate_Change.jpg",
+      "abstract": "The Arctic is warming approximately four times faster than anywhere else on Earth. One of the most visible signs is the rapid decline in sea ice, especially each September—a trend that often makes headlines. In this talk, we’ll take a closer look at what scientists have been observing in the Arctic, including changes in sea ice extent, thickness, and seasonality since the late 1970s, when satellites began measuring the region. We’ll also explore why the Arctic is warming so quickly, separating natural patterns from human-driven climate change caused by greenhouse gases. Finally, we'll discuss what these changes mean for Arctic wildlife and communities, as well as for people living far from the North. Throughout the presentation, I’ll highlight how the Arctic’s response to climate change differs dramatically from that of Antarctica, revealing the complexity and importance of this remarkable region.",
+      "youtube": "https://www.youtube.com/live/HCOmtk__868"
+    },
+    {
+        "title": "The Flight of the HELIX: Measuring the Galaxy from 40 km Above Greenland", 
+        "speakers": ["David Hanna"],
+        "date": "October 9, 2025",
+        "image": "assets/img/public_talks/Helix.jpg",
+        "abstract": "The High-Energy Light Isotope eXperiment (HELIX) is a balloon-borne particle detector designed to measure the flux of cosmic rays confined to the Milky Way Galaxy by its magnetic field. Its main goal is to determine the abundance ratio of unstable ¹⁰Be to stable ⁹Be, thereby helping scientists to probe the size and shape of our Galaxy’s magnetic field. To carry out this task requires lifting a two-tonne spectrometer, based on a superconducting magnet, to the edge of space using a giant helium-filled balloon. In this talk, Professor David Hanna will provide an introduction to cosmic rays and their history, followed by a description of the HELIX payload including explanations of the technologies underlying its different components. Much of the presentation will focus on HELIX's first flight, from Kiruna, Sweden to Ellesmere Island in Nunavut, that took place between May 28 and June 3, 2024.",
+        "youtube": "https://youtube.com/live/yHzMOF80arw?feature=share"
+    },
+    {
+      "title": "Life on Earth and Beyond",
+      "speakers": ["Nagissa Mahmoudi", "Richard Léveillé"],
+      "date": "May 1, 2025",
+      "image": "assets/img/public_talks/Life_on_earth.png",
+      "abstract": "Curious how studying life on Earth can inform our understanding of planetary evolution, habitability, and the potential for life beyond our planet?  The panel Life on Earth & Beyond, featuring two experts from McGill University, will consist of two 30-minute TED-style talks, followed by a 30-minute Q&A, where you'll have plenty of time to ask questions about the origins of life, microbes, and the search for life in our Solar System.",
+      "youtube": "https://youtube.com/live/4P0EWB5TXls?feature=share"
+    }, 
+    {
+        "title": "Quantum Science Panel",
+        "speakers": ["Bill Coish", "Claude Crépeau"],
+        "date": "March 26, 2025",
+        "image": "assets/img/public_talks/Quantum_Science.png",
+        "abstract": "Quantum communication promises ultra-secure information transfer using the principles of quantum entanglement. Professors Bill Coish and Claude Crépeau discuss the physics and computer science behind building real quantum networks.",
+        "youtube": "https://youtube.com/live/me7ycU51obI?feature=share"
+    }
+]
+  
