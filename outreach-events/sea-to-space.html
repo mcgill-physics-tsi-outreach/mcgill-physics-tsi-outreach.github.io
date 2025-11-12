@@ -23,36 +23,46 @@
   <meta property="og:description" content="Hands-on physics activities for 80+ students at Bellairs, Barbados." />
   <style>
     /* -------- Masthead -------- */
-    #quantum-masthead {
-      position: relative;
-      overflow: hidden;
-      padding-top: calc(7rem + 72px);
-      padding-bottom: 7rem;
-      background-color: #000;
-      background-image: url("../assets/img/events/bellairs/Bellairs.jpeg");
-      color: #000000;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      height: 400px;
-    }
+  #quantum-masthead {
+    position: relative;
+    overflow: hidden;
+    padding: 7rem 1rem;
+    background-color: #000;
+    background: url("../assets/img/events/planetary_systems_board.jpg") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  }
+  /* Text container with background */
+  #quantum-masthead .text-box {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+  }
 
-    #quantum-masthead h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
+  #quantum-masthead h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
 
-    #quantum-masthead p {
-      font-size: 2rem;
-      max-width: 600px;
-      margin: 0 auto;
-      opacity: 0.8;
-    }
+  #quantum-masthead p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
 
     /* -------- Blog Content -------- */
     body {
@@ -89,6 +99,19 @@
       object-fit: contain;
       background-color: #000;
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: white; /* or any color you like, e.g. #ed1b2f */
+    }
+    .swiper-pagination-bullet {
+      background: white;           /* dot color */
+      opacity: 0.6;                /* transparency */
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #ffffff;         /* active dot color */
+      opacity: 1;                  /* full opacity when active */
+    }
 
     @media (max-width: 768px) {
       .swiper {
@@ -121,14 +144,14 @@
 
 
     <!-- Header -->
-    <header id="quantum-masthead">
-      <div class="masthead-content text-center">
-        <div class="container">
-          <h1 class="masthead-heading mb-0">Sea to Space (Science pour tous)</h1>
-          <p>September 30th, 2025</p>
-        </div>
+    <section id="quantum-masthead">
+      <div class="text-box">
+        <h1>From Sea to Space </h1>
+        <h1><i>Science pour tous</i></h1>
+        <p>October 4th, 2025</p>
       </div>
-    </header>
+    </section>
+
 
   <!-- Article -->
   <main class="container my-5">
@@ -140,12 +163,7 @@
       The event was designed for children aged 5 to 12 and featured creative stations such as building with LEGO, making circuits with the potato lamp experiment, drawing and imagining alien worlds, and crafting models of distant planetary systems. 
       The combination of creativity, play, and science made the day an exciting opportunity for kids to explore how physics connects the deep sea to the farthest reaches of space.
     </article>
-    
-    
-  </main>
 
-  <!-- Gallery -->
-    <!-- Gallery -->
     <section id="gallery">
       <div class="text-center mb-4">
         <h2 class="fw-bold">Event Gallery</h2>
@@ -156,10 +174,10 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide"><img src="../assets/img/events/seatospace/seatospace1.jpg" alt="Sea to Space 1" /></div>
-          <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/seatospace2.jpg" alt="Sea to Space 2" /></div>
-          <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/seatospace3.jpg" alt="Sea to Space 3" /></div>
-          <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/seatospace4.jpg" alt="Sea to Space 4" /></div>
-          <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/seatospace5.jpg" alt="Sea to Space 5" /></div>
+          <div class="swiper-slide"><img src="../assets/img/events/seatospace/seatospace2.jpg" alt="Sea to Space 2" /></div>
+          <div class="swiper-slide"><img src="../assets/img/events/seatospace/seatospace3.jpg" alt="Sea to Space 3" /></div>
+          <div class="swiper-slide"><img src="../assets/img/events/seatospace/seatospace4.jpg" alt="Sea to Space 4" /></div>
+          <div class="swiper-slide"><img src="../assets/img/events/seatospace/seatospace5.jpg" alt="Sea to Space 5" /></div>
         </div>
   
         <!-- Controls -->
@@ -168,6 +186,21 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+
+    <div class="d-flex gap-2 mt-5">
+      <a href="../gallery.html" class="btn btn-dark">&larr; Back to Events</a>
+      <a href="../index.html" class="btn btn-light">Return Home</a>
+    </div>
+
+    
+    
+  </main>
+
+  <!-- Gallery -->
+    <!-- Gallery -->
+    
+
+
   
     <!-- Footer -->
     <footer class="text-center bg-dark text-white py-4 mt-5">

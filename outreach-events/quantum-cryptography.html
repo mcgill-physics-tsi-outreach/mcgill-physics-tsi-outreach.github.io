@@ -14,45 +14,57 @@
   <link rel="stylesheet" href="../assets/css/Navbar-Right-Links-Dark-icons.css" />
   <link rel="stylesheet" href="../assets/css/outreach.css" />
   <link rel="stylesheet" href="../assets/css/events.css" />
-
-  <!-- Swiper (gallery slider) -->
+    <!-- Swiper (gallery slider) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/gallery.css" />
 
 
-  
 
   <style>
     /* -------- Masthead -------- */
+  
     #quantum-masthead {
-      position: relative;
-      overflow: hidden;
-      padding-top: calc(7rem + 72px);
-      padding-bottom: 7rem;
-      background-color: #000;
-      background-image: url("../assets/img/events/quantum_workshop/quantum1.JPEG");
-      color: #fff;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      height: 400px;
-    }
+    position: relative;
+    overflow: hidden;
+    padding: 7rem 1rem;
+    background-color: #000;
+    background: url("../assets/img/events/quantum_workshop/quantum1.JPEG") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  }
 
-    #quantum-masthead h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
 
-    #quantum-masthead p {
-      font-size: 2rem;
-      max-width: 600px;
-      margin: 0 auto;
-      opacity: 0.8;
-    }
+  /* Text container with background */
+  #quantum-masthead .text-box {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+  }
+
+  #quantum-masthead h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  #quantum-masthead p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
 
 
     /* -------- Blog Content -------- */
@@ -72,33 +84,6 @@
       line-height: 1.7;
       color: #222;
     }
-
-    /* -------- Gallery -------- */
-    .swiper {
-      width: 80%;
-      max-width: 700px;
-      height: 400px;
-      margin: 40px auto;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    }
-
-    .swiper-slide img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      background-color: #000;
-    }
-
-    @media (max-width: 768px) {
-      .swiper {
-        height: 250px;
-        max-width: 95%;
-      }
-    }
-
-
   </style>
 </head>
 
@@ -122,14 +107,13 @@
 
   <div id="page-top"></div>
   <!-- Header -->
-  <header id="quantum-masthead">
-    <div class="masthead-content text-center">
-      <div class="container">
-        <h1 class="masthead-heading mb-0">Quantum Cryptography Workshop</h1>
-        <p>October 14, 2025</p>
-      </div>
+  <section id="quantum-masthead">
+    <div class="text-box">
+      <h1>Quantum Cryptography Workshop</h1>
+      <p>October 14, 2025</p>
     </div>
-  </header>
+  </section>
+
 
   <!-- Article -->
   <main class="container my-5">
@@ -139,20 +123,12 @@
       <p>Following the presentation, participants engaged in hands-on activities that demonstrated quantum key distribution (QKD) protocols. Using simple optical setups, students simulated the BB84 protocol, allowing them to experience firsthand how quantum states can be used to generate secure encryption keys.</p>
       <p>Throughout the day, students had the opportunity to ask questions and discuss the implications of quantum technologies with McGill researchers. The workshop also highlighted current advancements in quantum computing and its potential impact on various industries.</p>
       <p>We would like to thank Fiona Thompson, Scientific Outreach Officer from the Institute of Quantum Computing at the University Waterloo for leading such a great workshop!</p>
-      <div class="d-flex gap-2 mt-5">
-        <a href="../gallery.html" class="btn btn-dark">&larr; Back to Events</a>
-        <a href="../index.html" class="btn btn-light">Return Home</a>
-      </div>
-      
     </article>
-  </main>
-
-  <!-- Gallery -->
-    <!-- Gallery -->
+       <!-- Gallery -->
   <section id="gallery">
     <div class="text-center mb-4">
       <h2 class="fw-bold">Event Gallery</h2>
-      <p class="text-muted">Browse highlights from the evening</p>
+      <p class="text-muted">Browse highlights from the workshop!</p>
     </div>
 
     <div class="swiper">
@@ -171,6 +147,17 @@
       <div class="swiper-pagination"></div>
     </div>
   </section>
+
+  <div class="d-flex gap-2 mt-5">
+    <a href="../gallery.html" class="btn btn-dark">&larr; Back to Events</a>
+    <a href="../index.html" class="btn btn-light">Return Home</a>
+  </div>
+
+
+
+  </main>
+
+  
 
   <!-- Footer -->
   <footer class="text-center bg-dark text-white py-4 mt-5">

@@ -16,7 +16,9 @@
   <link rel="stylesheet" href="../assets/css/outreach.css" />
   <link rel="stylesheet" href="../assets/css/events.css" />
   <link rel="stylesheet" href="../assets/css/gallery.css" />
+     <!-- Swiper (gallery slider) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/gallery.css" />
 
   <meta name="description" content="McGill Physics Outreach brought hands-on demos to the Bellairs Research Institute in Barbados for 80+ students aged 10–14." />
   <meta property="og:title" content="Bellairs Outreach: Hands-On Physics Day" />
@@ -34,7 +36,7 @@
       padding: 2rem;
       background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(229, 228, 228, 0.08);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
       font-size: 1.05rem;
       line-height: 1.7;
       color: #222;
@@ -70,9 +72,8 @@
     position: relative;
     overflow: hidden;
     padding: 7rem 1rem;
-    background: 
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../assets/img/events/bellairs/Bellairs.jpeg") center/cover no-repeat;
+    background-color: #000;
+    background: url("../assets/img/events/bellairs/Bellairs.jpeg") center/cover no-repeat;
     color: #fff;
     text-align: center;
     display: flex;
@@ -82,17 +83,6 @@
     height: 450px;
     font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
   }
-
-  /* Optional: subtle blur overlay for elegance */
-  #quantum-masthead::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(2px);
-    z-index: 0;
-  }
-
   /* Text container with background */
   #quantum-masthead .text-box {
     position: relative;
@@ -119,7 +109,6 @@
     line-height: 1.6;
   }
 
-  /* Optional: responsive adjustments */
   @media (max-width: 768px) {
     #quantum-masthead {
       height: auto;
@@ -168,36 +157,73 @@
     <article class="mx-auto" style="max-width: 900px;">
       <p>This past September, St. James Parish in Barbados celebrated We Gatherin’, a year-long festival of Barbadian heritage, culture, and community. As part of the festivities, McGill’s Bellairs Research Institute hosted a day-long Science Adventure for local schoolchildren featuring a visit from McGill’s Redpath Museum and the Physics Outreach Committee.
 
-      Physics Master’s student Valentina Mazzotti and Physics PhD candidate Catherine Boisvert represented Physics Outreach, with Educational Program Manager Annick Brabant and Educational Consultant Megan Phillips representing the Redpath Museum. 
-
-      120 students from St. James Parish schools, aged 10 to 14, participated in the event, which marked the first time that both the Redpath Museum and Physics Outreach had ever organized a workshop abroad. </p>
+      <p> Physics Master’s student Valentina Mazzotti and Physics PhD candidate Catherine Boisvert represented Physics Outreach, with Educational Program Manager Annick Brabant and Educational Consultant Megan Phillips representing the Redpath Museum. 120 students from St. James Parish schools, aged 10 to 14, participated in the event, which marked the first time that both the Redpath Museum and Physics Outreach had ever organized a workshop abroad.  </p>
  
       <p>Catherine and Valentina lead hands-on physics activities that brought together local middle and high school students for an introduction to physics through simple, engaging hands-on demos and experiments.</p>
     
       <p>In the morning, the activities were designed for younger students, who explored physical concepts such as air resistance, buoyancy, and basic electrochemistry through hands-on demos and using simple materials. 
       <p>In the  <strong>Parachute Challenge</strong>, students worked in small teams to design and build miniature parachutes using everyday materials such as paper, string, plastic bags, and tape. The goal was to safely land a small object (in our case, marbles) from a set height while maximizing air resistance and minimizing impact speed of their parachute. The session was highly hands-on: students experimented with different canopy shapes and sizes, observed the effects, and iteratively improved their designs.  </p>
-      <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
-        <img src="../assets/img/events/bellairs/parachute3.jpg" alt="Students testing parachutes" class="img-thumbnail" style="width: 45%; min-width: 250px;">
-        <img src="../assets/img/events/bellairs/parachute2.jpg" alt="Parachute design activity" class="img-thumbnail" style="width: 45%; min-width: 250px;">
-      </div>
+      <figure class="text-center my-4">
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-2">
+          <img src="../assets/img/events/bellairs/Parachute1.jpg" 
+               alt="Students testing parachutes" 
+               class="img-thumbnail" 
+               style="width: 30%; min-width: 180px;">
+               
+          <img src="../assets/img/events/bellairs/Parachute5.jpeg" 
+               alt="Parachute design activity" 
+               class="img-thumbnail" 
+               style="width: 30%; min-width: 180px;">
+               
+          <img src="../assets/img/events/bellairs/Parachute3.jpg" 
+               alt="Parachute design activity" 
+               class="img-thumbnail" 
+               style="width: 30%; min-width: 180px;">
+        </div>
+        <figcaption class="text-muted" style="font-size: 0.95rem;">
+          Students testing and refining their parachute designs during the morning.
+        </figcaption>
+      </figure>
+    
     
       <p>The <strong>potato lamp experiment</strong> introduced students to the concept of an electrochemical cell. By inserting two dissimilar metals  (zinc and copper) into a potato, students created a simple galvanic cell where a redox reaction generates a small electric current. When connected to a light-emitting diode (LED), the circuit showed how chemical energy stored in the potato could be converted into electrical energy. The students had a lot of fun experimenting with their homemade battery, and saw first hand how connecting more potatoes in series increases the total voltage in the circuit, and therefore leads to the LED appearing brighter.</p>
       
-      <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
-        <img src="../assets/img/events/bellairs/Potatolamp2.jpeg" alt="Students connecting potatoes in series to build a battery" class="img-thumbnail" style="width: 45%; min-width: 250px;">
-        <img src="../assets/img/events/bellairs/Potatolamp3.jpeg" alt="Students working hard on the potato lamp" class="img-thumbnail" style="width: 45%; min-width: 250px;">
-      </div>
+      <figure class="text-center my-4">
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-2">
+          <img src="../assets/img/events/bellairs/Potatolamp2.jpeg" 
+               alt="Students connecting potatoes in series to build a battery" 
+               class="img-thumbnail" 
+               style="width: 30%; min-width: 180px;">
+               
+          <img src="../assets/img/events/bellairs/PotatoLamp1.jpeg" 
+               alt="Students working hard on the potato lamp" 
+               class="img-thumbnail" 
+               style="width: 30%; min-width: 180px;">
+               <img src="../assets/img/events/bellairs/PotatoLamp3.jpg" 
+               alt="Students working hard on the potato lamp" 
+               class="img-thumbnail" 
+               style="width: 30%; min-width: 180px;">
+        </div>
+        <figcaption class="text-muted" style="font-size: 0.95rem;">
+          Students working hard on building a working potato battery.
+        </figcaption>
+      </figure>
+      
 
       <p>Students who completed the Parachute Challenge could then participate in the Sink or Float Activity, where they tested various everyday objects in water to predict and verify whether each would sink or float. Using a worksheet, they recorded their predictions and observations to compare outcomes. By testing out clay, they also had the chance to see how shape plays a critical role in boat design, as it directly affects buoyancy. Lastly, they tested a raw egg in both fresh and salt water to observe how the density of water influences its floating behavior (they observed first-hand how a raw-egg will sink in fresh water but would float in salt water, because, as the water's salt content increases, it becomes denser!).</p>
-    
-      <img src="../assets/img/events/bellairs/sinkorfloat.jpg" alt="Sink or float activity" class="img-fluid rounded shadow my-4">
+      <figure class="text-center my-4">
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-2">
+          <img src="../assets/img/events/bellairs/sinkorfloat.jpg" alt="Sink or float activity" class="img-fluid rounded shadow my-4">
+        </div>
+      </figure>
+      
     
       <p>In the afternoon, the focus shifted to electromagnetism and magnetism, with activities aimed at high-school students. 
         The students had the opportunity to build a simple electric motor using a coil of copper wire, a magnet, and a battery. As current flowed through the coil, they observed how the interaction between the magnetic field and moving charges produced a torque, causing the coil to spin. This was a fun demo that allowed students to learn how electrical energy can be converted into mechanical motion and introduced the idea of an electromagnet.</p>
     
       <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
         <img src="../assets/img/events/bellairs/Electricmotor.jpg" alt="Building electric motor" class="img-thumbnail" style="width: 45%; min-width: 250px;">
-        <img src="../assets/img/events/bellairs/explaining.jpg" alt="Magnetic compass activity" class="img-thumbnail" style="width: 45%; min-width: 250px;">
+        <img src="../assets/img/events/bellairs/Electricmotor2.jpg" alt="Magnetic compass activity" class="img-thumbnail" style="width: 45%; min-width: 250px;">
       </div>
     
       <p>They then revisited the potato lamp experiment,  connecting several cells in series and measuring the resulting voltage with a multimeter. This demonstrated how electrical potential increases with the number of cells, a core idea in basic circuit design. 
@@ -205,18 +231,88 @@
              The final experiment involved building a magnetic compass, an activity that  introduced students to the concept of magnetism and the Earth's magnetic field, as well as representing a simple yet effective way to visualize geomagnetism in action. Using plastic bottle caps, cork disks, and sewing needles, students created working compasses by magnetizing the needles and floating them on water using small pieces of cork or wax paper. After rubbing one end of the needle with a strong magnet in a single direction, students observed how the needle aligned itself along the north-south axis, providing a clear and engaging visualization of the Earth’s magnetic field (and they could then test that their homemade compass was properly working by benchmarking it with the one on their phones, which led to big surprises!). They also experimented with a large horseshoe magnet to see how brining the large horseshoes magnet close to their "homemade compass" disrupted and influenced the magnetized needle’s orientation.
       <p>Overall The activities encouraged students to observe, test, and discuss what they saw — connecting simple materials to physical principles. For the McGill team, it was an opportunity to share the process of discovery that lies at the heart of physics and to show how experimentation can reveal the rules that govern the natural world.</p>
     
-      <p>For both Valentina, the outreach visit to Bellairs was a memorable experience. “Seeing the students' excitement and curiosity as they engaged with the experiments was incredibly rewarding, as it reminded them of the joy of discovery that science can bring, especially when it’s hands-on and interactive.”</p>
-      <figure>
-        <img src="../assets/img/events/bellairs/group.jpg" class="img-fluid rounded shadow my-3"  alt="BellairsGroup" style="width:90%">
-        <figcaption>Group photo with the Bellairs Team, Julie from the Faculty of Science, Valentina and Catherine from McGill Physics Outreach, and Megan and Annick from the Redpath Museum. Thank you Bellairs for your warm hospitality!</figcaption>
+      <p>For both Valentina and Catherine, the outreach visit to Bellairs was a memorable experience. “Seeing the students' excitement and curiosity as they engaged with the experiments was incredibly rewarding, as it reminded them of the joy of discovery that science can bring, especially when it’s hands-on and interactive.”</p>
+      <figure class="text-center my-4">
+        <img src="../assets/img/events/bellairs/GroupOrganizers.jpg"
+             class="img-fluid rounded shadow mb-2"
+             alt="BellairsGroup"
+             style="width: 85%; max-width: 900px;">
+      
+        <figcaption class="text-muted mt-2" style="font-size: 0.95rem; line-height: 1.4;">
+          Group photo with the Bellairs Team, Julie (Director of Operations of the Faculty of Science), 
+          Valentina and Catherine from McGill Physics Outreach, and Megan and Annick from the Redpath Museum.  
+          Thank you Bellairs for your warm hospitality!
+        </figcaption>
       </figure>
+      
   
     </article>
+
+         <!-- Gallery -->
+  <section id="gallery">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Event Gallery</h2>
+      <p class="text-muted">Browse highlights from the event!</p>
+    </div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/GroupStudents.jpeg" alt="Bellairs 1" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/Parachute2.jpg" alt="Bellairs 1" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/Parachute4.jpeg" alt="Bellairs 1" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/Parachute5.jpeg" alt="Bellairs 1" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/Explaining.jpg" alt="Bellairs 2" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/Electricmotor.jpg" alt="Bellairs 3" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/Electricmotor2.jpg" alt="Bellairs 4" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/PotatoLamp1.jpeg" alt="Bellairs 3" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/bellairs/PotatoLamp2.jpeg" alt="Bellairs 3" /></div>
+  
+      </div>
+
+      <!-- Controls -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <div class="d-flex gap-2 mt-5">
+    <a href="../gallery.html" class="btn btn-dark">&larr; Back to Events</a>
+    <a href="../index.html" class="btn btn-light">Return Home</a>
+  </div>
+
+
     
     
   </main>
+  <!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../assets/js/bs-init.js"></script>
+<script src="../assets/js/nav.js"></script>
 
+<!-- Swiper Initialization -->
+<script>
+  const swiper = new Swiper(".swiper", {
+    loop: true,
+    spaceBetween: 10,
+    centeredSlides: true,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 
-  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -22,8 +22,6 @@
       padding: 6rem 1rem;
       margin-bottom: 3rem;
       background-color: #000;
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                  url("../assets/img/events/public_talks_header.jpg") center/cover no-repeat;
       color: #fff;
       text-align: center;
       display: flex;
@@ -36,18 +34,31 @@
       height: 400px;
     }
 
+    /* Text container with background */
+    #quantum-masthead .text-box {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(6px);
+    }
+
     #quantum-masthead h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      letter-spacing: 1px;
     }
 
     #quantum-masthead p {
-      font-size: 2rem;
-      max-width: 600px;
+      font-size: 1.4rem;
+      max-width: 700px;
       margin: 0 auto;
-      opacity: 0.8;
+      opacity: 0.9;
+      line-height: 1.6;
     }
-
 
 
     #talks-header {
@@ -145,14 +156,12 @@
 
   <div id="page-top"></div>
   <!-- Header -->
-  <header id="quantum-masthead">
-    <div class="masthead-content text-center">
-      <div class="container">
-        <h1 class="masthead-heading mb-0">Quantum Cryptography Workshop</h1>
-        <p>October 14, 2025</p>
-      </div>
+  <section id="quantum-masthead">
+    <div class="text-box">
+      <h1>Physics Public Talks</h1>
+      <p>Browse through past TSI & McGill Physics Public Talks!</p>
     </div>
-  </header>
+  </section>
 
   <!-- Talks Container -->
   <main class="container pb-5">

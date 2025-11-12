@@ -11,13 +11,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Catamaran.css">
     <link rel="stylesheet" href="assets/css/Lato.css">
-    <link rel="stylesheet" href="assets/css/Calendar-BS4-news.css">
-    <link rel="stylesheet" href="assets/css/Calendar-BS4.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
     <link rel="stylesheet" href="assets/css/outreach.css">
-    <link rel="stylesheet" href="assets/css/Projects-Grid-Horizontal-images.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider-Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/events.css" />
 </head>
 
@@ -29,9 +24,7 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active text-end" style="color: var(--bs-navbar-brand-color);" href="index.html">Home&nbsp; Page</a></li>
-                    <li class="nav-item text-end"><a class="nav-link text-end" href="#intro" style="color: var(--bs-navbar-brand-color);">Educational Partnerships</a></li>
                     <li class="nav-item text-end"></li>
-                    <li class="nav-item text-end"><a class="nav-link text-end" href="#page-top" style="color: var(--bs-navbar-brand-color);">Return To Top<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-up" href="#page-top">
                                 <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"></path>
                             </svg></a></li>
                 </ul>
@@ -68,7 +61,7 @@
     {
         title: "Bellairs Outreach: We Gatherin Barbados", 
         date: "September 30, 2025",
-        image: "assets/img/events/bellairs/group.jpg",
+        image: "assets/img/events/bellairs/GroupOrganizers.jpg",
         file: "bellairs-physics.html"
     }];
 
@@ -80,16 +73,13 @@
     // Go to /events/<filename>.html
     div.href = `./outreach-events/${ev.file}`;
     div.innerHTML = `
-        <img src="${ev.image}" alt="${ev.title}">
+        <img src="${ev.image}" alt="${ev.title}" loading="lazy">
         <div class="content">
         <h3>${ev.title}</h3>
         <p>${ev.date}</p>
         </div>`;
     container.appendChild(div);
     });
-
-
-
   </script>
 
 
@@ -117,7 +107,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
-    <script src="assets/js/mailto.js"></script>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 
