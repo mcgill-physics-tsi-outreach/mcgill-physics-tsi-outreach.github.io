@@ -177,35 +177,34 @@
     <p class="mb-0">© 2025 McGill Physics & TSI Outreach</p>
   </footer>
 
-  <!-- JS Libraries -->
-  <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="../assets/js/bs-init.js"></script>
-  <script src="../assets/js/nav.js"></script>
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../assets/js/bs-init.js"></script>
+<script src="../assets/js/nav.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Swiper Initialization -->
+<script>
+  const swiper = new Swiper(".swiper", {
+    loop: true,
+    spaceBetween: 10,
+    centeredSlides: true,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 
-  <!-- Swiper Initialization -->
-   <script>
-    const swiper = new Swiper(".swiper", {
-      loop: true,
-      spaceBetween: 10,
-      centeredSlides: true,
-      slidesPerView: 1,
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
 
 </body>
 </html>
