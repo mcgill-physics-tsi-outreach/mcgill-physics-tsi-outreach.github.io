@@ -1,4 +1,11 @@
-[
+    [{
+      "title": "Digital Skies for Ancient Contexts", 
+      "speakers": ["J. Luna Zagorac"],
+      "date": "December 4th, 2025",
+      "image": "assets/img/public_talks/Digital_Skies.jpg",
+      "abstract": "In this talk, Luna will explore how ancient Egyptian star charts—painted on tomb ceilings over 3,000 years ago—can be understood through modern computational tools. Using decanOpy, a Python-based code developed for this project, she digitally reconstructs the night sky of ca. 1300 BCE to investigate how Ramesside Star Clocks were created and what they reveal about early astronomical practices. The hope is that matching these digital “observations” to the primary sources will help narrow down how these observations were originally performed, which in turn may allow us to link the ancient star names to their modern equivalents.",
+      "youtube": "https://youtube.com/live/YBBxWGIoG4Q?feature=share"
+    },
     {
       "title": "Arctic Climate Change", 
       "speakers": ["Bruno Tremblay"],
