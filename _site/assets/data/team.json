@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Thomas Brunner",
+      "role": "Outreach Committee Chair – Faculty Member",
+      "image": "assets/img/thumbs/brunner_thumb.png",
+      "link": "https://www.physics.mcgill.ca/~brunner/"
+    },
+    {
+      "name": "Kim Metera",
+      "role": "Outreach Support – Undergraduate Advisor",
+      "image": "assets/img/thumbs/Kim_Metera_thumb.png"
+    },
+    {
+        "name": "Michael Hilke",
+        "role": "Professor- Outreach Committee Member",
+        "image": "assets/img/thumbs/Hilke2.jpg",
+        "link": "https://www.physics.mcgill.ca/~hilke/"
+      }, 
+    {
+      "name": "Andrew Cumming",
+      "role": "Professor- Outreach Committee Member",
+      "image": "assets/img/thumbs/AndrewCumming.jpeg",
+      "link": "https://www.physics.mcgill.ca/~cumming/"
+    }, 
+    {
+      "name": "Patrick Horlaville",
+      "role": "Outreach Coordinator – Space Explorers",
+      "image": "assets/img/thumbs/patrick_horlaville.jpeg"
+    },
+    {
+        "name": "Valentina Mazzotti",
+        "role": "Outreach Coordinator – Public Talks & Social Media",
+        "image": "assets/img/thumbs/valentina-mazzotti.jpg"
+     },
+    {
+      "name": "Georgia Mraz",
+      "role": "Outreach Coordinator – Science in Space",
+      "image": "assets/img/thumbs/Georgia_Mraz.jpg"
+    },
+    {
+      "name": "Catherine Boisvert",
+      "role": "Outreach Coordinator – Hackathon",
+      "image": "assets/img/thumbs/Catherine_Boisvert.jpg"
+    }
+ 
+  ]
+  

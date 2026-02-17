@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" style="--bs-primary:#ed1b2f;--bs-primary-rgb:237,27,47;--bs-secondary:#1BEDD9;--bs-secondary-rgb:27,237,217;">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Quantum Cryptography Workshop</title>
+  <meta name="description" content="Website of the McGill Physics and Trottier Space Institute Outreach Committee" />
+  <meta property="og:type" content="website" />
+
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../assets/css/Catamaran.css" />
+  <link rel="stylesheet" href="../assets/css/Lato.css" />
+  <link rel="stylesheet" href="../assets/css/Navbar-Right-Links-Dark-icons.css" />
+  <link rel="stylesheet" href="../assets/css/outreach.css" />
+  <link rel="stylesheet" href="../assets/css/events.css" />
+    <!-- Swiper (gallery slider) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/gallery.css" />
+
+
+
+  <style>
+    /* -------- Masthead -------- */
+  
+    #quantum-masthead {
+    position: relative;
+    overflow: hidden;
+    padding: 7rem 1rem;
+    background-color: #000;
+    background: url("../assets/img/events/quantum_workshop/quantum1.JPEG") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  }
+
+
+  /* Text container with background */
+  #quantum-masthead .text-box {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+  }
+
+  #quantum-masthead h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  #quantum-masthead p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+
+
+    /* -------- Blog Content -------- */
+    body {
+      font-family: "Lato", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .blog-content, article {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #222;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar bg-dark bg-gradient py-3 fixed-top navbar-dark">
+    <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" href="index.html" title="Return home"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-stars">
+                    <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"></path>
+                </svg></span><span href="../index.html">McGill Physics and TSI Outreach</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbar"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active text-end" style="color: var(--bs-navbar-brand-color);" href="../index.html">Home&nbsp; Page</a></li>
+                <li class="nav-item text-end"><a class="nav-link text-end" href="../gallery.html" style="color: var(--bs-navbar-brand-color);">Back to Events</a></li>
+                            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"></path>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+  <div id="page-top"></div>
+  <!-- Header -->
+  <section id="quantum-masthead">
+    <div class="text-box">
+      <h1>Quantum Cryptography Workshop</h1>
+      <p>October 14, 2025</p>
+    </div>
+  </section>
+
+
+  <!-- Article -->
+  <main class="container my-5">
+    <article>
+      <p>On October 14, 2025, McGill Physics Outreach hosted a Quantum Cryptography Workshop for undergraduate students at McGill University. The event aimed to introduce students to the fascinating world of quantum mechanics and its applications in secure communication.</p>
+      The workshop began with an engaging introduction to the fundamentals of quantum physics, inviting students to explore big questions such as <i> What is quantum? </i> and <i>What is light? </i>Through interactive demonstrations, they discovered how the polarization of light can be used to represent a qubit—the basic unit of quantum information. Students experimented with the ideas of superposition and measurement disturbance, gaining insight into how observing a quantum system can change its state. This hands-on exploration highlighted the key differences between the classical and quantum pictures of light, and taught students these concepts form the basis of quantum cryptography. .</p>
+      <p>Next, students dove into the world of quantum cryptography through an introduction to Quantum Key Distribution (QKD). They learned how two fundamental principles—measurement disturbance and the no-cloning theorem—form the backbone of secure quantum communication. Using the well-known BB84 protocol as a guide, participants explored how quantum states can be used to generate secret keys that are inherently protected from eavesdropping, which gave students a glimpse into how quantum mechanics is transforming the future of secure information transfer.
+      <p> Following the presentation, in the final part of the workshop, students stepped into the roles of Alice and Bob. Using 3D-printed laser kits, they exchanged secret keys and saw firsthand how the rules of quantum physics prevent eavesdroppers from going undetected. Working in small teams, participants generated their own quantum-secure key and used it to transmit a binary message, bringing the concepts of QKD to life through a hands-on activity.
+      <p>Throughout the day, students had the opportunity to ask questions and discuss the implications of quantum technologies, with the workshop also highlighting current advancements in quantum computing and its potential impact on various industries.</p>
+      <p>We would like to thank Fiona Thompson, Scientific Outreach Officer from the Institute of Quantum Computing at the University Waterloo, for leading such a great workshop!</p>
+    </article>
+
+       <!-- Gallery -->
+  <section id="gallery">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Event Gallery</h2>
+      <p class="text-muted">Browse highlights from the workshop!</p>
+    </div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/quantum1.JPEG" alt="Quantum Workshop 1" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/quantum2.JPEG" alt="Quantum Workshop 1" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/quantum3.JPEG" alt="Quantum Workshop 3" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/quantum4.JPEG" alt="Quantum Workshop 4" /></div>
+        <div class="swiper-slide"><img src="../assets/img/events/quantum_workshop/quantum5.JPEG" alt="Quantum Workshop 4" /></div>
+      </div>
+
+      <!-- Controls -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <div class="d-flex gap-2 mt-5">
+    <a href="../gallery.html" class="btn btn-dark">&larr; Back to Events</a>
+    <a href="../index.html" class="btn btn-light">Return Home</a>
+  </div>
+  </main>
+
+  
+
+  <!-- Footer -->
+  <footer class="text-center bg-dark text-white py-4 mt-5">
+    <p class="mb-0">© 2025 McGill Physics & TSI Outreach</p>
+  </footer>
+
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../assets/js/bs-init.js"></script>
+<script src="../assets/js/nav.js"></script>
+
+<!-- Swiper Initialization -->
+<script>
+  const swiper = new Swiper(".swiper", {
+    loop: true,
+    spaceBetween: 10,
+    centeredSlides: true,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+
+</body>
+</html>
