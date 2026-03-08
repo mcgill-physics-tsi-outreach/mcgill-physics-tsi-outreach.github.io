@@ -12,16 +12,26 @@
     },
     {
         "name": "Michael Hilke",
-        "role": "Professor- Outreach Committee Member",
+        "role": "Professor - Outreach Committee Member",
         "image": "assets/img/thumbs/Hilke2.jpg",
         "link": "https://www.physics.mcgill.ca/~hilke/"
       }, 
     {
       "name": "Andrew Cumming",
-      "role": "Professor- Outreach Committee Member",
+      "role": "Professor - Outreach Committee Member",
       "image": "assets/img/thumbs/AndrewCumming.jpeg",
       "link": "https://www.physics.mcgill.ca/~cumming/"
     }, 
+    {
+      "name": "Tracy Webb",
+      "role": "Professor - Outreach Committee Member",
+      "image": "assets/img/thumbs/patrick_horlaville.jpeg"
+    },
+    {
+      "name": "Eesha Das Gupta",
+      "role": "Outreach Coordinator",
+      "image": "assets/img/thumbs/Eesha_headshot.png"
+    },
     {
       "name": "Patrick Horlaville",
       "role": "Outreach Coordinator – Space Explorers",
