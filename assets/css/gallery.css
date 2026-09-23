@@ -1,37 +1,125 @@
-/* Gallery for events */
-.swiper {
-    width: 80%;
-    max-width: 700px;
-    height: 400px;
-    margin: 40px auto;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: white; /* or any color you like, e.g. #ed1b2f */
-  }
+:root{
+  --ink:        #12141c;
+  --ink-soft:   #1c2030;
+  --indigo:     #1b2a4a;
+  --paper:      #eef1f0;
+  --card:       #ffffff;
+  --red:        #ed1b2f;
+  --teal:       #146e7a;
+  --teal-soft:  #dfe9e7;
+  --line:       #d6dbd8;
+  --text:       #14161c;
+  --text-muted: #27313b;
 
-  .swiper-pagination-bullet {
-    background: white;           /* dot color */
-    opacity: 0.6;                /* transparency */
-  }
+  --display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body:    'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --mono:    'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  .swiper-pagination-bullet-active {
-    background: #ffffff;         /* active dot color */
-    opacity: 1;                  /* full opacity when active */
-  }
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    background-color: #000;
-  }
+  --radius: 6px;
+  --container: 1580px;
+}
 
-  @media (max-width: 768px) {
-    .swiper {
-      height: 250px;
-      max-width: 95%;
-    }
+*,*::before,*::after{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; font-size:22px }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  *,*::before,*::after{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
+}
+
+body{ margin:0; background:var(--paper); color:var(--text); font-family:var(--body); font-size:17px; line-height:1.65; -webkit-font-smoothing:antialiased; }
+h1,h2,h3,h4,h5{ font-family:var(--display); color:var(--ink); margin:0; letter-spacing:-0.01em; }
+#masthead {
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 1rem;
+  background-color: #000;
+  background: url("../../assets/img/events/planetary_systems_board.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+}
+/* Text container with background */
+#masthead .text-box {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+}
+#masthead h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#masthead p {
+  font-size: 1.4rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  #masthead {
+    height: auto;
+    padding: 5rem 1rem;
   }
+  #masthead h1 {
+    font-size: 2.2rem;
+  }
+  #masthead p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Named .gallery-grid/.gallery-card deliberately — .event-grid/.event-card
+   would collide with the different .event-card rules in outreach.css,
+   used by events.js on the homepage. Both stylesheets load on this page. */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 1800px;
+}
+.gallery-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+.gallery-card:hover {
+  transform: translateY(-5px);
+}
+.gallery-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.gallery-card .content {
+  padding: 1rem;
+}
+.gallery-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: #212529;
+}
+.gallery-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+

@@ -1,0 +1,125 @@
+﻿{
+  "upcoming": [{
+    "title": "AI and the Climate Crisis: A Critical Look at Challenges and Opportunities",
+    "date": "Tuesday, September 29, 2026",
+    "time": "7:00 PM",
+    "location": "26 Leacock Building - McGill University",
+    "description": "Join us for the first TSI & McGill Physics Public Talk of the academic year! Professor Alex Hernandez-Garcia from the Université de Montréal and Mila kicks off the series with a talk on climate change and artificial intelligence, taking a critical look at both the challenges and the opportunities AI brings to the climate crisis.",
+    "links": [
+      { "label": "Join virtually!", "url": "https://www.youtube.com/live/aPg5zJ4jkF8" }
+    ],
+    "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDVvbTh0MjdvazJ2c2lhYnBjbG1ydHUzZWwgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+  }],
+  "past": [
+    {
+      "title": "24hrs of Science - From Planets to Particles: An Exploration Mini-Fair",
+      "date": "Saturday, May 2, 2025",
+      "time": "10:00 AM - 4:00 PM",
+      "location": "Rutherford Building (3600 Rue University) - McGill University",
+      "description": "Drop in for hands-on activities and demos about gravity, life on other planets, energy, volcanoes, and more. Weather permitting, telescopes will also be set up for solar observing. Activities are geared towards kids ages 5-12, with younger and older siblings and parents welcome.",
+      "links": [
+        { "label": "Register", "url": "https://tinyurl.com/planets-to-particles-2026" }
+      ],
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MW5hcXNjMDBkajEybzU2NzBmOW05cWwxYXYgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "Anna McPherson Public Lecture - Gravitational-Wave Astronomy: The Sounds of Silence from the Dark Universe",
+      "date": "Thursday, April 9, 2026",
+      "time": "6:00 PM - 7:30 PM",
+      "location": "Leacock Auditorium (room 132) - McGill University",
+      "speaker": "Alessandra Buonanno, Director at the Max Planck Institute for Gravitational Physics",
+      "description": "A public lecture on how gravitational waves opened a new window into extreme environments in the universe, revealing the nature of black holes and neutron stars while testing Einstein's theory of general relativity.",
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NjhmMGlqOTlvMWhlcXBmZmRwNXMyNDhxNnMgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "TSI & Physics Public Talk - Is artificial intelligence going to transform our understanding of the universe?",
+      "date": "Wednesday, April 1, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "26 Leacock Building - McGill University",
+      "speaker": "Laurence Perreault-Levasseur, Canada Research Chair in Artificial Intelligence and Computational Cosmology",
+      "description": "A discussion of how upcoming surveys and telescopes will generate unprecedented volumes of cosmological data, and how machine learning tools can help overcome computational challenges in next-generation sky surveys.",
+      "links": [
+        { "label": "Watch recording", "url": "https://youtube.com/live/uZSNFnw2k1U?feature=share" }
+      ],
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NHQybjI0N3AwcWdiZzZxODV1NTRoajI2NXMgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "TSI Special Public Talk - The Mystery of Dark Matter in the Universe",
+      "date": "Thursday, March 26, 2026",
+      "time": "7:00 PM - 8:00 PM (Public Talk); 8:00 PM - 8:45 PM (Book Signing)",
+      "location": "Adams Building Auditorium - McGill University",
+      "speaker": "Dr. Katherine Freese, author of The Cosmic Cocktail",
+      "description": "A public overview of dark matter evidence, candidate particles including axions and WIMPs, and why cosmologists believe the field may be approaching an epochal discovery.",
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2sxcTRvdDZxZGJsb2s2b2V2djFlNmd2dHEgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "TSI & Physics Public Talk - Designing the Sustainable Aircraft of Tomorrow",
+      "date": "Thursday, March 19, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "0100 Trottier Engineering Building - McGill University",
+      "description": "A talk on conceptual aircraft design, systems engineering, multidisciplinary optimization, and AI-driven tools for sustainable aviation.",
+      "links": [
+        { "label": "Watch recording", "url": "https://www.youtube.com/live/mNaz8WYSlwo" }
+      ],
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Nms0aGVndGJrY2Q3b2o3dmZyOWNhc3F2Y2ggdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "TSI & Physics Public Talk - How Nuclear Physics Can Help in the Fight Against Cancer",
+      "date": "Thursday, February 19, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "McGill University",
+      "speaker": "Cornelia Hoehr",
+      "description": "A public lecture on how nuclear physics, particle accelerators, detectors, medical isotopes, and radiotherapy research support cancer diagnosis and treatment.",
+      "links": [
+        { "label": "Watch recording", "url": "https://www.youtube.com/live/jCvWCKO534U" }
+      ]
+    },
+    {
+      "title": "Exploring Exoplanets: A Panel Discussion",
+      "date": "Wednesday, January 14, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "McGill University",
+      "speaker": "Jonathan Gagne and Casey Brinkman",
+      "description": "A two-talk panel on free-floating planets, complex atmospheres, and how exoplanets mirror the compositions of their host stars, followed by a Q&A on current exoplanet research.",
+      "links": [
+        { "label": "Watch recording", "url": "https://youtube.com/live/V2AHl_nTWSg?feature=share" }
+      ]
+    },
+    {
+      "title": "TSI & Physics Public Talk - Digital Skies for Ancient Contexts: Reconstructing Ramesside Star Clocks with Python",
+      "date": "Thursday, December 4, 2025",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "26 Leacock Building - McGill University",
+      "speaker": "J. Luna Zagorac",
+      "description": "A talk on using Python and planetarium software to reconstruct ancient Egyptian skies and investigate how Ramesside Star Clocks were created.",
+      "links": [
+        { "label": "Join virtually", "url": "https://youtube.com/live/YBBxWGIoG4Q?feature=share" }
+      ],
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MWc5djBnZ2pmbDVqNnA5c25va29iZ2w2c2sgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "TSI & Physics Public Talk - Arctic Climate Change: What Is Happening and Why It Matters",
+      "date": "Tuesday, October 28, 2025",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "26 Leacock Building - McGill University",
+      "speaker": "Bruno Tremblay",
+      "description": "A closer look at rapid Arctic warming, sea ice decline, and what these changes mean for Arctic wildlife, communities, and people far from the North.",
+      "links": [
+        { "label": "Watch recording", "url": "https://www.youtube.com/live/HCOmtk__868" }
+      ],
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NjJqbTZzZWY4ampqM2xxbzVhM2VyczFuZmsgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
+    {
+      "title": "TSI & Physics Public Talk - The Flight of the HELIX: Measuring the Galaxy from 40 km Above Greenland",
+      "date": "Thursday, October 9, 2025",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "0100 Trottier Engineering Building - McGill University",
+      "speaker": "David Hanna",
+      "description": "An introduction to cosmic rays and the HELIX balloon-borne particle detector, with a focus on its first flight from Kiruna, Sweden to Ellesmere Island in Nunavut.",
+      "links": [
+        { "label": "Watch recording", "url": "https://www.youtube.com/live/yHzMOF80arw" }
+      ],
+      "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHUyMzc0ZGswY2JxZm1xaXJ1NzZjYmYyN2ogdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    }
+  ]
+}
