@@ -50,7 +50,7 @@
 .nav-list a:hover::after, .nav-list a:focus-visible::after{ right:0; }
 .nav-toggle{ display:none; background:none; border:1px solid rgba(255,255,255,0.3); border-radius:4px; color:#fff; width:38px; height:34px; cursor:pointer; }
 
-@media (max-width: 1400px){
+@media (max-width: 1700px){
 .nav-toggle{ display:block; }
 .nav-list{ position:absolute; top:100%; left:0; right:0; flex-direction:column; align-items:stretch; gap:0; background:var(--ink); max-height:0; overflow:hidden; transition:max-height 0.25s ease; }
 .nav-list.open{ max-height:480px; }
