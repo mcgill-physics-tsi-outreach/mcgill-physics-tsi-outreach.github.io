@@ -1,5 +1,6 @@
 ﻿{
-  "upcoming": [{
+  "upcoming": [
+        {
     "title": "AI and the Climate Crisis: A Critical Look at Challenges and Opportunities",
     "date": "Tuesday, September 29, 2026",
     "time": "7:00 PM",
@@ -9,8 +10,20 @@
       { "label": "Join virtually!", "url": "https://www.youtube.com/live/aPg5zJ4jkF8" }
     ],
     "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDVvbTh0MjdvazJ2c2lhYnBjbG1ydHUzZWwgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
-  }],
+    }
+  ],
   "past": [
+    {
+    "title": "AI and the Climate Crisis: A Critical Look at Challenges and Opportunities",
+    "date": "Tuesday, September 29, 2026",
+    "time": "7:00 PM",
+    "location": "26 Leacock Building - McGill University",
+    "description": "Join us for the first TSI & McGill Physics Public Talk of the academic year! Professor Alex Hernandez-Garcia from the Université de Montréal and Mila kicks off the series with a talk on climate change and artificial intelligence, taking a critical look at both the challenges and the opportunities AI brings to the climate crisis.",
+    "links": [
+      { "label": "Join virtually!", "url": "https://www.youtube.com/live/aPg5zJ4jkF8" }
+    ],
+    "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDVvbTh0MjdvazJ2c2lhYnBjbG1ydHUzZWwgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    },
     {
       "title": "24hrs of Science - From Planets to Particles: An Exploration Mini-Fair",
       "date": "Saturday, May 2, 2025",

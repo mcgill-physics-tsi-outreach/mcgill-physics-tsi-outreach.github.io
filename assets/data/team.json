@@ -1,13 +1,24 @@
 [
     {
-      "name": "Thomas Brunner",
+      "name": "Andrew Cumming",
       "role": "Outreach Committee Chair – Faculty Member",
+      "image": "assets/img/thumbs/AndrewCumming.jpeg",
+      "link": "https://www.physics.mcgill.ca/~cumming/"
+    },
+    {
+      "name": "Eesha Das Gupta",
+      "role": "TSI Inreach/Outreach Coordinator",
+      "image": "assets/img/thumbs/Eesha_headshot.png"
+    }, 
+    {
+      "name": "Thomas Brunner",
+      "role": "Professor - Outreach Committee Member",
       "image": "assets/img/thumbs/brunner_thumb.png",
       "link": "https://www.physics.mcgill.ca/~brunner/"
     },
     {
       "name": "Kim Metera",
-      "role": "Outreach Support – Undergraduate Advisor",
+      "role": "Outreach Support – Administrative Office",
       "image": "assets/img/thumbs/Kim_Metera_thumb.png"
     },
     {
@@ -17,30 +28,14 @@
         "link": "https://www.physics.mcgill.ca/~hilke/"
       }, 
     {
-      "name": "Andrew Cumming",
-      "role": "Professor - Outreach Committee Member",
-      "image": "assets/img/thumbs/AndrewCumming.jpeg",
-      "link": "https://www.physics.mcgill.ca/~cumming/"
-    }, 
-    {
-      "name": "Tracy Webb",
-      "role": "Professor - Outreach Committee Member",
-      "image": "assets/img/thumbs/tracywebb.jpg"
-    },
-    {
-      "name": "Eesha Das Gupta",
-      "role": "Outreach Coordinator",
-      "image": "assets/img/thumbs/Eesha_headshot.png"
-    },
-    {
       "name": "Patrick Horlaville",
       "role": "Outreach Coordinator – Space Explorers",
       "image": "assets/img/thumbs/patrick_horlaville.jpeg"
     },
     {
-        "name": "Valentina Mazzotti",
+        "name": "Amélie Chiasson David",
         "role": "Outreach Coordinator – Public Talks & Social Media",
-        "image": "assets/img/thumbs/valentina-mazzotti.jpg"
+        "image": "assets/img/thumbs/Amelie_CD.jpg"
      },
     {
       "name": "Georgia Mraz",
@@ -48,9 +43,19 @@
       "image": "assets/img/thumbs/Georgia_Mraz.jpg"
     },
     {
+      "name": "Jennifer Glover",
+      "role": "Outreach Coordinator – Science in Space",
+      "image": "assets/img/thumbs/atom-1674878_640.jpg"
+    },
+    {
       "name": "Catherine Boisvert",
-      "role": "Outreach Coordinator – Hackathon",
+      "role": "Outreach Coordinator",
       "image": "assets/img/thumbs/Catherine_Boisvert.jpg"
+    },
+    {
+      "name": "Brendon Barry",
+      "role": "Outreach Coordinator - Hackathon",
+      "image": "assets/img/thumbs/Brendan_Barry.jpg"
     }
  
   ]
