@@ -20,7 +20,10 @@
     "time": "7:00 PM - 8:30 PM",
     "location": "26 Leacock Building - McGill University",
     "speaker":"Olivier Landon-Cardinal, Professor at École de Technologie Supérieure",
-    "description": "Learn more about the current state of the art of quantum computers."
+    "description": "Learn more about the current state of the art of quantum computers.",
+    "links": [
+      { "label": "Join virtually!", "url": "https://www.youtube.com/live/M-CvPD8tfho?si=MDFvzDcYiZYROCox" }
+    ]
     },
     {
     "title": "The Night Sky in Ancient Egypt",
