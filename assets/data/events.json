@@ -1,23 +1,41 @@
 ﻿{
   "upcoming": [
         {
-    "title": "AI and the Climate Crisis: A Critical Look at Challenges and Opportunities",
-    "date": "Tuesday, September 29, 2026",
-    "time": "7:00 PM",
+    "title": "A Terrific Tour of Top Telescopes",
+    "date": "Tuesday, December 1, 2026",
+    "time": "7:00 PM - 8:30 PM",
     "location": "26 Leacock Building - McGill University",
-    "description": "Join us for the first TSI & McGill Physics Public Talk of the academic year! Professor Alex Hernandez-Garcia from the Université de Montréal and Mila kicks off the series with a talk on climate change and artificial intelligence, taking a critical look at both the challenges and the opportunities AI brings to the climate crisis.",
+    "speaker":"Zachary Steinberg",
+    "description": "Take a tour with McGill PhD student Zachary Steinberg to learn how astronomers use telescopes to study a wide variety of objects from planets to whole galaxies.",
     "links": [
-      { "label": "Join virtually!", "url": "https://www.youtube.com/live/aPg5zJ4jkF8" }
+      { "label": "Join virtually!", "url": "https://www.youtube.com/live/0tT_oUBLvN4?si=iAv1jRw9xdvykGLa" }
     ],
-    "calendarUrl": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDVvbTh0MjdvazJ2c2lhYnBjbG1ydHUzZWwgdmFsaW16enR0QG0&tmsrc=valimzztt%40gmail.com"
+    "calendarUrl": "https://calendar.app.google/q8QFAoAYSHmsGrBJ6"
     }
   ],
   "past": [
     {
-    "title": "AI and the Climate Crisis: A Critical Look at Challenges and Opportunities",
-    "date": "Tuesday, September 29, 2026",
+    "title": "Quantum Computers: Where Are We Now?",
+    "date": "Tuesday, October 17, 2026",
+    "time": "7:00 PM - 8:30 PM",
+    "location": "26 Leacock Building - McGill University",
+    "speaker":"Olivier Landon-Cardinal, Professor at École de Technologie Supérieure",
+    "description": "Learn more about the current state of the art of quantum computers."
+    },
+    {
+    "title": "The Night Sky in Ancient Egypt",
+    "date": "Monday, October 5, 2026",
     "time": "7:00 PM",
     "location": "26 Leacock Building - McGill University",
+    "speaker":"Sarah Symons, Professor at McMaster University",
+    "description": "A public talk about ancient Egyptian ceilings and artifacts and what they can teach us about the night sky."
+    },
+    {
+    "title": "AI and the Climate Crisis: A Critical Look at Challenges and Opportunities",
+    "date": "Tuesday, September 29, 2026",
+    "time": "7:00 PM - 8:30 PM",
+    "location": "26 Leacock Building - McGill University",
+    "speaker":"Alex Hernandez-Garcia, Professor at Université de Montréal and MILA",
     "description": "Join us for the first TSI & McGill Physics Public Talk of the academic year! Professor Alex Hernandez-Garcia from the Université de Montréal and Mila kicks off the series with a talk on climate change and artificial intelligence, taking a critical look at both the challenges and the opportunities AI brings to the climate crisis.",
     "links": [
       { "label": "Join virtually!", "url": "https://www.youtube.com/live/aPg5zJ4jkF8" }
